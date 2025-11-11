@@ -54,7 +54,7 @@ public class AdminController {
 
     @GetMapping("/")
     public String index() {
-        return "admin_theme/index";
+        return "admin/index";
     }
 
     @GetMapping("/loadAddProduct")
